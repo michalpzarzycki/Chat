@@ -1,0 +1,40 @@
+.mainDiv {
+    
+    display: flex;
+    border-bottom: 1px solid #002C88;
+    color: #ddd;
+    padding: 5% 5%;
+}
+.mainDiv:hover {
+    background:#002C88;
+    cursor: pointer;
+}
+
+.conversationPhoto {
+    width: 20%;
+}
+
+.conversationInfo {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 2%;
+}
+
+.nameAndDate {
+    display: flex;
+}
+
+.conversationPhoto > img {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.date {
+    width: 10%;
+    font-size: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
